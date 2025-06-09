@@ -22,7 +22,7 @@
  *    char d = 'X';
  *    boolean  e = true;
  */
-public class DateType {
+public class DataType {
     static byte a ;
     static short b ;
     static long d ;
@@ -52,5 +52,7 @@ public class DateType {
         //30.123456789f 输出结果为 30.123457
         System.out.println("float浮点精度:"+e2);
         System.out.println("double浮点精度:"+f2);
+        int a3,b3,c3 = 10; //只有最后一个变量赋值成功
+//      System.out.println("a3:"+a3+"b3:"b3+"c3:"+c3);
     }
 }
